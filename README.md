@@ -1,101 +1,76 @@
-QA INTERN PRACTICAL ASSIGNMENT
+# QA Intern Assignment Submission
 
-Candidate Name: Rishabh Vaishnav
-Submission Date: 10 September 2026
-Time: 7:00pm
---------------------------------------------------
+## Candidate Details
 
-APPLICATION TESTED
-Application Name: OomniEye
-Environment: Staging
-URL: http://base-application-stage.oomnieye.com/
+Name: Rishabh Vaishnav
+Time: 7:00 pm
+Date: 10 September 2026
 
---------------------------------------------------
 
-TOOLS USED
+---
 
-• Google Chrome Browser
-• Microsoft Word
-• Microsoft Excel
-• Eclipse Workspace(Selenium)
-• Screen Recording Tool (for final explanation video)
+## Project Overview
 
---------------------------------------------------
+This repository contains my submission for the QA Intern Practical Assignment for OomniEye.
 
-TESTING APPROACH
+The assignment includes:
 
-The application was explored to understand its purpose, modules, and workflows.
+- Application Understanding
+- Test Scenarios
+- Detailed Test Cases
+- Negative & Edge Case Testing
+- Bug Reports
+- Test Execution Summary
+- Selenium Automation Scripts
+- Video Walkthrough
 
-Testing activities performed:
+---
 
-1. Functional Testing
-2. Negative Testing
-3. Boundary Testing
-4. Data Validation Testing
-5. UI/Usability Testing
-6. Exploratory Testing
+## GitHub Repository
 
-Main modules explored:
+GitHub Link:
+https://github.com/RishabhVaishnav-star/oomnieye-qa-assignment
 
-• Dashboard
-• User Management
-• Theme Studio
-• Account Settings
+---
 
---------------------------------------------------
+## Video Walkthrough
 
-DELIVERABLES INCLUDED
+Video Link:
+https://drive.google.com/file/d/12wb08t2W4ViQMJSwTNiB0xOMospLJNix/view?usp=sharing
+
+---
+
+## Deliverables
 
 1. Application_Understanding.docx
-2. Test-Scenarios.xlsx
-3. Test-Cases.xlsx
-4. Bug-Report.xlsx
-5. QA_Automation_Code.docx
-6. Final-Explanation.mp4
-7. README.md
+2. Test_Scenarios.xlsx
+3. Test_Cases.xlsx
+4. Bug_Report.xlsx
+5. Test_Execution_Summary.docx
+6. Selenium Automation Scripts
+7. Screenshots
 
---------------------------------------------------
+---
 
-ASSUMPTIONS
+## Tools Used
 
-• Testing was performed on the staging environment.
-• Menu Item 1 and Menu Item 2 appeared unavailable or non-functional during testing.
-• No business requirement document was provided; observations are based on application behaviour.
-• User records present in the application are assumed to be test/staging data.
+- Selenium WebDriver
+- Java
+- TestNG (if used)
+- Chrome Browser
+- Microsoft Word
+- Microsoft Excel
 
---------------------------------------------------
+---
 
-LIMITATIONS
+## Summary
 
-• Testing duration was limited to the assignment timeline.
-• Source code access was not available.
-• Database access was not available.
-• Security testing was limited to normal QA validation checks.
-• Testing was performed through the available user interface only.
+Total Test Scenarios: 15
 
---------------------------------------------------
+Total Detailed Test Cases: 10
 
-SUMMARY OF TEST EXECUTION
+Negative Test Cases: 12
 
-Total Test Scenarios Designed: 15
+Defects Identified: 8+
 
-Total Test Cases Executed: 15
-
-Major Defects Identified:
-
-1. Full Name field accepts numeric-only values.
-2. Username field accepts invalid numeric values.
-3. Phone Number field accepts invalid inputs.
-4. Location fields can be left blank.
-5. Personal Information form accepts blank values.
-6. Profile changes are not retained after navigation.
-7. Theme Studio "New" button appears non-functional.
-8. Potential authentication concern observed during login testing (requires further verification).
-
---------------------------------------------------
-
-FINAL ASSESSMENT
-
-The application is functional and provides user management and account management capabilities. However, improvements are recommended in input validation, mandatory field enforcement, and data persistence before production deployment.
-
-Thank you.
+Application Tested: OomniEye (Staging Environment)
